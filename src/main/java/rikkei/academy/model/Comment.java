@@ -80,19 +80,6 @@ public class Comment {
     }
 
     @Override
-    public Comment clone() {
-        Comment comment = new Comment();
-        comment.setId(id);
-        comment.setDate(date);
-        comment.setFeedback(feedback);
-        comment.setRate(rate);
-        comment.setAuthor(author);
-        comment.setLikeCount(likeCount);
-        return comment;
-    }
-
-
-    @Override
     public String toString() {
         return "Comment{" +
                 "id=" + id +
